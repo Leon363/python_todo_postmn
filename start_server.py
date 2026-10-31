@@ -7,7 +7,6 @@ if __name__ == "__main__":
         "main:app",
         host="0.0.0.0",
         port=8000,
-        reload=False,
-        log_level="DEBUG",
-        workers=4,
+        reload=True,
+        log_level="DEBUG"
     )
